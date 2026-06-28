@@ -146,12 +146,13 @@ def main():
     c = Cal()
     chc = 0
     while chc !=-1:
-            print("1.Basic Math                  2.Scientific calculation")
-            print("3.Random Numbers              4.View History")
-            print("-1.Exit")
+           
             try:
                 chc= 0
                 while chc !=-1:
+                    print("1.Basic Math                  2.Scientific calculation")
+                    print("3.Random Numbers              4.View History")
+                    print("-1.Exit")
                     chc= int(input("Enter the choice:"))
                     if chc ==-1:
                         break
